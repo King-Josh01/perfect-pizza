@@ -39,6 +39,9 @@ flex: 1
     background-color: rgb(159, 202, 79);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: medium;
+    padding-bottom: 0cm;
+    margin-bottom: 0.5em;
+    border-radius: 0.5em;
 }
 .special{
     background-color: black;
