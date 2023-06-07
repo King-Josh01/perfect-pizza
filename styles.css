@@ -17,22 +17,20 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: medium;
     font-style: normal;
+    flex: 1;
    
 }
 
 .medium_pizza {
     background-color: rgb(221, 218, 31);
-flex: 1
 }
 
 .large_pizza {
     background-color: rgb(65, 42, 165);
-    flex:2
 }
 
 .small_pizza {
     background-color: rgb(56, 200, 63);
-    flex:1
 }
 
 .contact_us {
@@ -55,12 +53,21 @@ flex: 1
        
     }
 
+    .pizza_flex{
+        display: flex;
+    }
+    
+
 @media (min-width: 960px) {
 
     body {
         background-color: rgb(141, 59, 122);
        
     }
+    .pizza_flex{
+        display: flex;
+    }
+    
    
 }
 }
